@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p9</title>
+    <style>
+        *{
+            margin:0;
+            padding: :0;
+            box-sizing: border-box;
+        }
+        :root{
+            --white: #ffffff;
+            --black: #000000;
+            --gris:  #686868;
+            --celeste: #0000ff;
+        }
+        body{
+            background-color: var();
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            grid-template-columns: repeat(16,1fr);
+            grid-template-rows: repeat(40,1fr);
+        }
+        #nom, #insta{
+            background-color: black;
+            text-align: center;
+        }
+        a{
+            font-family: 'Courier New', Courier, monospace;
+            color: #ffffff;
+        }
+        #nom{
+            grid-row:25/26;
+            grid-column: 8/9;
+        }
+        #insta{
+            grid-row: 26/27;
+            grid-column: 8/9;
+        }
+        #almohada_d{
+            background-color: var(--gris);
+            grid-row: 20/31;
+            grid-column: 6/7;
+        }
+        #almohada_i{
+            background-color: var(--gris);
+            grid-row: 20/31;
+            grid-column: 10/11;
+        }
+        #casco_d{
+            background-color: var(--black);
+            grid-row: 21/30;
+            grid-column: 5/6;
+        }
+        #casco_i{
+            background-color: var(--black);
+            grid-row: 21/30;
+            grid-column: 11/12;
+        }
+        #barra1_d{
+            background-color: var(--black);
+            grid-row: 10/21;
+            grid-column: 4/5;
+        }
+        #barra1_i{
+            background-color: var(--black);
+            grid-row: 10/21;
+            grid-column: 12/13;
+        }
+        #barra2_d{
+            background-color: var(--black);
+            grid-row: 7/11;
+            grid-column: 5/6;
+        }
+        #barra2_i{
+            background-color: var(--black);
+            grid-row: 7/11;
+            grid-column: 11/12;
+        }
+        #barra3_d{
+            background-color: var(--black);
+            grid-row: 5/8;
+            grid-column: 6/7;
+        }
+        #barra3_i{
+            background-color: var(--black);
+            grid-row: 5/8;
+            grid-column: 10/11;
+        }
+        #barra4{
+            background-color: var(--black);
+            grid-row: 4/6;
+            grid-column: 7/10;
+        }
+        #micro1{
+            background-color: var(--black);
+            grid-row: 28/33;
+            grid-column: 4/5;
+        }
+        #micro2{
+            background-color: var(--black);
+            grid-row: 33/34;
+            grid-column: 5/6;
+        }
+        #micro3{
+            background-color: var(--black);
+            grid-row: 34/35;
+            grid-column: 6/8;
+        }
+        #esponja_micro{
+            background-color: var(--gris);
+            grid-row: 33/35;
+            grid-column: 8/9;
+        }
+        #led{
+            background-color: var(--celeste);
+            grid-row: 29/30;
+            grid-column: 4/5;
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+    <div class="container">
+        <div id="nom"><a href="#">Iker Juan</a></div>
+        <div id="insta"><a href="#">@ikeronil</a></div>
+        <div id="almohada_d"></div>
+        <div id="almohada_i"></div>
+        <div id="casco_d"></div>
+        <div id="casco_i"></div>
+        <div id="barra1_d"></div>
+        <div id="barra1_i"></div>
+        <div id="barra2_d"></div>
+        <div id="barra2_i"></div>
+        <div id="barra3_d"></div>
+        <div id="barra3_i"></div>
+        <div id="barra4"></div>
+        <div id="micro1"></div>
+        <div id="micro2"></div>
+        <div id="micro3"></div>
+        <div id="esponja_micro"></div>
+        <div id="led"></div>
+    </div>
+</html>
